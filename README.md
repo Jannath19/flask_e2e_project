@@ -15,7 +15,6 @@ Users can access the web service to explore and understand the pregnancy mortali
 - .ENV (Environment Variables)
 - API Service (Flask Backend)
 - Azure (Deployment)
-- SQLAlchemy (ORM)
 - Logger and or Sentry.io (Debugging & Logging)
 - Docker (Containerization)
 ## Steps to Running the Web-Service
@@ -89,3 +88,7 @@ The Flask web application can be deployed in three different ways: locally, usin
      ```
      Replace placeholders with your names.
 
+### Troubleshooting and Known Issues
+
+#### Google OAuth Error
+- **Issue:** Encountered an error while setting up OAuth consent screen. The consent screen in the Google Cloud Console wasn't loading on my end; tried refreshing as well.
