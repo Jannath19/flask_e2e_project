@@ -1,0 +1,36 @@
+/* app/static/css/styles.css */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic Tailwind utility classes */
+  .bg-blue-500 {
+    background-color: #3490dc;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Add your custom styles below this line */
+  
+  /* Example: Center the content */
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Example: Add some padding to the body */
+  body {
+    padding: 4rem;
+  }  
