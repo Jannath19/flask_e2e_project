@@ -90,5 +90,8 @@ The Flask web application can be deployed in three different ways: locally, usin
 
 ### Troubleshooting and Known Issues
 
+### SQL
+The initial hurdle involved setting up the connection between SQL Workbench and Flask. Despite following the documentation and online tutorials, I faced difficulties in configuring the necessary settings and establishing a successful connection.
+
 #### Google OAuth Error
 - **Issue:** Encountered an error while setting up OAuth consent screen. The consent screen in the Google Cloud Console wasn't loading on my end; tried refreshing as well.
