@@ -20,7 +20,7 @@ Users can access the web service to explore and understand the pregnancy mortali
 - Docker (Containerization)
 ## Steps to Running the Web-Service
 
-The Flask web application can be deployed in three different ways: locally, using Docker, and cloud deployment with Azure. The following instructions guide you on how to run the application for each deployment method.
+The Flask web application can be deployed in three different ways: locally, using Docker, and cloud deployment with Azure. 
 
 ### Deploying Locally
 
@@ -64,5 +64,28 @@ The Flask web application can be deployed in three different ways: locally, usin
 
 ### Deploying on Azure
 
-1. **Azure Deployment Steps:**
-   - Follow the Azure deployment steps outlined in the documentation.
+1. **Install Azure CLI:**
+   - Install Azure CLI in Azure Cloud Shell or locally:
+     ```bash
+     curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+     ```
+
+2. **Log in to Azure:**
+   - Authenticate with your Azure account:
+     ```bash
+     az login --use-device-code
+     ```
+
+3. **Create Resource Group:**
+   - Create a resource group:
+     ```bash
+     az group create --name <resource-group-name> --location eastus
+     ```
+
+4. **Deploy Application:**
+   - Deploy the Flask app:
+     ```bash
+     az webapp up --resource-group <resource-group-name> --name <app-name> --runtime "PYTHON|3.9" --sku F1
+     ```
+     Replace placeholders with your names.
+
