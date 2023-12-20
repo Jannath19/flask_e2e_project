@@ -6,3 +6,15 @@ Welcome to the Pregnancy-Associated Mortality Web App Repository! The product cr
 
 ## Web Service Functionality
 Users can access the web service to explore and understand the pregnancy mortality rates.
+
+## Technologies Used
+- Github (Version Control)
+- Flask (Python; Frotend & Backend)
+- MySQL (Azure)
+- Tailwind (Frontend Styling)
+- .ENV (Environment Variables)
+- API Service (Flask Backend)
+- Azure (Deployment)
+- SQLAlchemy (ORM)
+- Logger and or Sentry.io (Debugging & Logging)
+- Docker (Containerization)
